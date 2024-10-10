@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mobillio Online Store</title>
+    <meta property="og:title" content="Watches Online Store" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Jost;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: 0.02;
+        line-height: 1.55;
+        color: var(--dl-color-gray-black);
+        background: var(--dl-color-gray-white);
+
+        fill: var(--dl-color-gray-black);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container10">
+        <header data-role="Header" class="home-header max-width-container">
+          <div data-role="BurgerMenu" class="home-burger-menu">
+            <svg viewBox="0 0 1024 1024" class="home-icon10">
+              <path
+                d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+              ></path>
+            </svg>
+          </div>
+          <div data-role="MobileMenu" class="home-mobile-menu">
+            <div class="home-nav">
+              <div class="home-container11">
+                <span class="home-logo-center">MOBILLIO</span>
+                <div data-role="CloseMobileMenu" class="home-close-mobile-menu">
+                  <svg viewBox="0 0 1024 1024" class="home-icon12">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="home-middle">
+                <span class="home-text10">SHOP</span>
+                <span class="home-text11">LOOKBOOK</span>
+                <span class="home-text12">SPECIAL</span>
+                <span class="home-text13">ABOUT</span>
+                <span class="home-text14">BLOG</span>
+                <span class="home-text15">CONTACT</span>
+              </div>
+            </div>
+            <div>
+              <svg viewBox="0 0 950.8571428571428 1024" class="home-icon14">
+                <path
+                  d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                ></path></svg
+              ><svg viewBox="0 0 877.7142857142857 1024" class="home-icon16">
+                <path
+                  d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                ></path></svg
+              ><svg viewBox="0 0 602.2582857142856 1024" class="home-icon18">
+                <path
+                  d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </header>
+        <div class="home-container12"></div>
+        <div class="home-main">
+          <div class="home-container13">
+            <div
+              data-thq="slider"
+              data-pagination="true"
+              data-navigation="true"
+              data-autoplay="true"
+              class="home-slider swiper"
+            >
+              <div
+                data-thq="slider-pagination"
+                class="home-slider-pagination swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal"
+              >
+                <div
+                  data-thq="slider-pagination-bullet"
+                  class="swiper-pagination-bullet"
+                ></div>
+              </div>
+              <div
+                data-thq="slider-button-prev"
+                class="swiper-button-prev"
+              ></div>
+              <div
+                data-thq="slider-button-next"
+                class="swiper-button-next"
+              ></div>
+              <div
+                data-thq="slider-wrapper"
+                class="home-slider-wrapper swiper-wrapper"
+              >
+                <div
+                  data-thq="slider-slide"
+                  class="home-slider-slide swiper-slide"
+                ></div>
+              </div>
+            </div>
+            <img
+              src="public/xkyky26n3b9mnkmbbityqowxc2lba0jw-400h.jpg"
+              alt="image"
+              class="home-image1"
+            />
+            <img
+              src="public/132001965b-270x300-400w.jpg"
+              alt="image"
+              class="home-image2"
+            />
+          </div>
+          <div class="section-container">
+            <div class="max-width-container">
+              <section-heading-wrapper class="section-heading-wrapper">
+                <!--SectionHeading component-->
+                <div class="section-heading-section-heading section-heading">
+                  <h1 class="Heading-2"><span>TRENDING ITEMS</span></h1>
+                  <span class="section-heading-text2">
+                    <span>
+                      Explore our monthly most trending products, new items and
+                      the best Watches offers you can buy
+                    </span>
+                  </span>
+                </div>
+              </section-heading-wrapper>
+              <div class="home-gallery">
+                <div class="home-left1">
+                  <item-card-wrapper class="item-card-wrapper">
+                    <!--ItemCard component-->
+                    <div
+                      class="item-card-gallery-card item-cardroot-class-name4"
+                    >
+                      <img
+                        alt="image"
+                        src="public/1281-0-3-56a-1500w.jpg"
+                        class="item-card-image"
+                      />
+                      <div class="item-card-container1">
+                        <h3 class="item-card-text">
+                          <span>Elegant Nika Watches</span>
+                        </h3>
+                        <div class="item-card-container2">
+                          <svg viewBox="0 0 1024 1024" class="item-card-icon10">
+                            <path
+                              d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"
+                            ></path></svg
+                          ><svg
+                            viewBox="0 0 1024 1024"
+                            class="item-card-icon12"
+                          >
+                            <path
+                              d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"
+                            ></path></svg
+                          ><svg
+                            viewBox="0 0 1024 1024"
+                            class="item-card-icon14"
+                          >
+                            <path
+                              d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"
+                            ></path></svg
+                          ><svg
+                            viewBox="0 0 1024 1024"
+                            class="item-card-icon16"
+                          >
+                            <path
+                              d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"
+                            ></path></svg
+                          ><svg
+                            viewBox="0 0 1024 1024"
+                            class="item-card-icon18"
+                          >
+                            <path
+                              d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div class="item-card-container3">
+                          <span class="item-card-currency"><span>$</span></span>
+                          <span class="item-card-value">
+                            <span>5,999</span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </item-card-wrapper>
+                </div>
+                <div class="home-right1">
+                  <div class="home-top">
+                    <div class="home-left2">
+                      <item-card-wrapper-bbg2 class="item-card-wrapper-bbg2">
+                        <!--ItemCard component-->
+                        <div
+                          class="item-card-gallery-card1 item-cardroot-class-name2"
+                        >
+                          <img
+                            alt="image"
+                            src="public/%C3%B0%C2%9D%C3%B0%C2%B8%C3%B0%C2%BA%C3%B0%C2%B0-1320.0.19.25b-300x458-1500w.jpg"
+                            class="item-card-image1"
+                          />
+                          <div class="item-card-container4">
+                            <h3 class="item-card-text1">
+                              <span>Executive Watches</span>
+                            </h3>
+                            <div class="item-card-container5">
+                              <svg
+                                viewBox="0 0 1024 1024"
+                                class="item-card-icon20"
+                              >
+                                <path
+                                  d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"
+                                ></path></svg
+                              ><svg
+                                viewBox="0 0 1024 1024"
+                                class="item-card-icon22"
+                              >
+                                <path
+                                  d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"
+                                ></path></svg
+                              ><svg
+                                viewBox="0 0 1024 1024"
+                                class="item-card-icon24"
+                              >
+                                <path
+                                  d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"
+                                ></path></svg
+                              ><svg
+                                viewBox="0 0 1024 1024"
+                                class="item-card-icon26"
+                              >
+                                <path
+                                  d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"
+                                ></path></svg
+                              ><svg
+                                viewBox="0 0 1024 1024"
+                                class="item-card-icon28"
+                              >
+                                <path
+                                  d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"
+                                ></path>
+                              </svg>
+                            </div>
+                            <div class="item-card-container6">
+                              <span class="item-card-currency1">
+                                <span>$</span>
+                              </span>
+                              <span class="item-card-value1">
+                                <span>429</span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </item-card-wrapper-bbg2>
+                    </div>
+                    <div class="home-right2">
+                      <item-card-wrapper-9vm3 class="item-card-wrapper-9vm3">
+                        <!--ItemCard component-->
+                        <div
+                          class="item-card-gallery-card2 item-cardroot-class-name3"
+                        >
+                          <img
+                            alt="image"
+                            src="public/132001965b-270x3001-1500w.jpg"
+                            class="item-card-image2"
+                          />
+                          <div class="item-card-container7">
+                            <h3 class="item-card-text2">
+                              <span>Stylish Watches</span>
+                            </h3>
+                            <div class="item-card-container8">
+                              <svg
+                                viewBox="0 0 1024 1024"
+                                class="item-card-icon30"
+                              >
+                                <path
+                                  d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"
+                                ></path></svg
+                              ><svg
+                                viewBox="0 0 1024 1024"
+                                class="item-card-icon32"
+                              >
+                                <path
+                                  d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"
+                                ></path></svg
+                              ><svg
+                                viewBox="0 0 1024 1024"
+                                class="item-card-icon34"
+                              >
+                                <path
+                                  d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"
+                                ></path></svg
+                              ><svg
+                                viewBox="0 0 1024 1024"
+                                class="item-card-icon36"
+                              >
+                                <path
+                                  d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"
+                                ></path></svg
+                              ><svg
+                                viewBox="0 0 1024 1024"
+                                class="item-card-icon38"
+                              >
+                                <path
+                                  d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"
+                                ></path>
+                              </svg>
+                            </div>
+                            <div class="item-card-container9">
+                              <span class="item-card-currency2">
+                                <span>$</span>
+                              </span>
+                              <span class="item-card-value2">
+                                <span>3,929</span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </item-card-wrapper-9vm3>
+                    </div>
+                  </div>
+                  <div class="home-bottom">
+                    <div class="home-left3">
+                      <item-card-wrapper-rt2t
+                        class="item-card-wrapper-rt2t"
+                        rootclassname="item-cardundefined"
+                      >
+                        <!--ItemCard component-->
+                        <div
+                          class="item-card-gallery-card3 item-cardroot-class-name1"
+                        >
+                          <img
+                            alt="image"
+                            src="public/1065-0-9-85a-1500w.jpg"
+                            class="item-card-image3"
+                          />
+                          <div class="item-card-container10">
+                            <h3 class="item-card-text3">
+                              <span>Black Studio Lamp</span>
+                            </h3>
+                            <div class="item-card-container11">
+                              <svg
+                                viewBox="0 0 1024 1024"
+                                class="item-card-icon40"
+                              >
+                                <path
+                                  d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"
+                                ></path></svg
+                              ><svg
+                                viewBox="0 0 1024 1024"
+                                class="item-card-icon42"
+                              >
+                                <path
+                                  d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"
+                                ></path></svg
+                              ><svg
+                                viewBox="0 0 1024 1024"
+                                class="item-card-icon44"
+                              >
+                                <path
+                                  d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"
+                                ></path></svg
+                              ><svg
+                                viewBox="0 0 1024 1024"
+                                class="item-card-icon46"
+                              >
+                                <path
+                                  d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"
+                                ></path></svg
+                              ><svg
+                                viewBox="0 0 1024 1024"
+                                class="item-card-icon48"
+                              >
+                                <path
+                                  d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"
+                                ></path>
+                              </svg>
+                            </div>
+                            <div class="item-card-container12">
+                              <span class="item-card-currency3">
+                                <span>$</span>
+                              </span>
+                              <span class="item-card-value3">
+                                <span>1,888</span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </item-card-wrapper-rt2t>
+                    </div>
+                    <div class="home-right3">
+                      <item-card-wrapper-c3l1
+                        class="item-card-wrapper-c3l1"
+                        rootclassname="item-cardundefined"
+                      >
+                        <!--ItemCard component-->
+                        <div
+                          class="item-card-gallery-card4 item-cardroot-class-name6"
+                        >
+                          <img
+                            alt="image"
+                            src="public/xkyky26n3b9mnkmbbityqowxc2lba0jw1-1500w.jpg"
+                            class="item-card-image4"
+                          />
+                          <div class="item-card-container13">
+                            <h3 class="item-card-text4"><span>Jars</span></h3>
+                            <div class="item-card-container14">
+                              <svg
+                                viewBox="0 0 1024 1024"
+                                class="item-card-icon50"
+                              >
+                                <path
+                                  d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"
+                                ></path></svg
+                              ><svg
+                                viewBox="0 0 1024 1024"
+                                class="item-card-icon52"
+                              >
+                                <path
+                                  d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"
+                                ></path></svg
+                              ><svg
+                                viewBox="0 0 1024 1024"
+                                class="item-card-icon54"
+                              >
+                                <path
+                                  d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"
+                                ></path></svg
+                              ><svg
+                                viewBox="0 0 1024 1024"
+                                class="item-card-icon56"
+                              >
+                                <path
+                                  d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"
+                                ></path></svg
+                              ><svg
+                                viewBox="0 0 1024 1024"
+                                class="item-card-icon58"
+                              >
+                                <path
+                                  d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"
+                                ></path>
+                              </svg>
+                            </div>
+                            <div class="item-card-container15">
+                              <span class="item-card-currency4">
+                                <span>$</span>
+                              </span>
+                              <span class="item-card-value4">
+                                <span>49</span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </item-card-wrapper-c3l1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="home-full-width-banner section-container">
+            <div class="home-left4">
+              <div class="home-content">
+                <span class="home-text16">LOOKBOOKS</span>
+                <span class="home-text17">
+                  Carefully curated watches, well matched in style and looks
+                </span>
+              </div>
+              <div class="home-btn button">
+                <span class="home-text18">Explore now</span>
+              </div>
+            </div>
+            <img
+              alt="Rectangle13271410"
+              src="public/2-4000h.jpg"
+              class="home-image3"
+            />
+          </div>
+          <div class="section-container">
+            <div class="max-width-container">
+              <section-heading-wrapper-bogn
+                class="section-heading-wrapper-bogn"
+                rootclassname="section-headingundefined"
+              >
+                <!--SectionHeading component-->
+                <div
+                  class="section-heading-section-heading1 section-headingroot-class-name"
+                >
+                  <h1 class="Heading-2"><span>Insights from experts</span></h1>
+                  <span class="section-heading-text4">
+                    <span>
+                      Read the latest news and furniture related articles
+                    </span>
+                  </span>
+                </div>
+              </section-heading-wrapper-bogn>
+              <div class="home-container14">
+                <blog-post-card-wrapper
+                  class="blog-post-card-wrapper"
+                  rootclassname="blog-post-cardundefined"
+                >
+                  <!--BlogPostCard component-->
+                  <div
+                    class="blog-post-card-blog-post-card blog-post-cardroot-class-name"
+                  >
+                    <img
+                      alt="image"
+                      src="public/5d05uteu0bzc44jkk7lj0k8fsd66oong-1500w.jpg"
+                      class="blog-post-card-image"
+                    />
+                    <div class="blog-post-card-container">
+                      <span class="blog-post-card-text1">
+                        <span>Chic watches designs for 2025</span>
+                      </span>
+                      <span class="blog-post-card-text2">
+                        <span>
+                          Consectetur adipiscing elit duis tristique
+                          sollicitudin nibh
+                        </span>
+                      </span>
+                      <a
+                        href=""
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="button"
+                      >
+                        Read more
+                      </a>
+                    </div>
+                  </div>
+                </blog-post-card-wrapper>
+                <blog-post-card-wrapper-bzn2
+                  class="blog-post-card-wrapper-bzn2"
+                >
+                  <!--BlogPostCard component-->
+                  <div class="blog-post-card-blog-post-card1 blog-post-card">
+                    <img
+                      alt="image"
+                      src="public/1246-0-1-42a__1-1500w.jpg"
+                      class="blog-post-card-image1"
+                    />
+                    <div class="blog-post-card-container1">
+                      <span class="blog-post-card-text3">
+                        <span>Unique natural color combinations</span>
+                      </span>
+                      <span class="blog-post-card-text4">
+                        <span>
+                          Consectetur adipiscing elit duis tristique
+                          sollicitudin nibh
+                        </span>
+                      </span>
+                      <a
+                        href=""
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="button"
+                      >
+                        Read more
+                      </a>
+                    </div>
+                  </div>
+                </blog-post-card-wrapper-bzn2>
+                <blog-post-card-wrapper-7adt
+                  class="blog-post-card-wrapper-7adt"
+                >
+                  <!--BlogPostCard component-->
+                  <div class="blog-post-card-blog-post-card2 blog-post-card">
+                    <img
+                      alt="image"
+                      src="public/c2f8d1990d7268ef2c9d59435a6ec6b2-1500w.jpg"
+                      class="blog-post-card-image2"
+                    />
+                    <div class="blog-post-card-container2">
+                      <span class="blog-post-card-text5">
+                        <span>Special combinations for nature lovers</span>
+                      </span>
+                      <span class="blog-post-card-text6">
+                        <span>
+                          Consectetur adipiscing elit duis tristique
+                          sollicitudin nibh
+                        </span>
+                      </span>
+                      <a
+                        href=""
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="button"
+                      >
+                        Read more
+                      </a>
+                    </div>
+                  </div>
+                </blog-post-card-wrapper-7adt>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-container15">
+          <label class="home-text19">Collections</label>
+          <label class="home-text20">Contacts</label>
+          <label class="home-text21">Exclusive club</label>
+          <label class="home-text22">Insights from experts</label>
+        </div>
+        <div class="home-navbar">
+          <div class="home-container16">
+            <img
+              src="public/logo-photoroom-200w.png"
+              alt="image"
+              class="home-image4"
+            />
+            <img
+              alt="AccountCircle3271301"
+              src="public/external/accountcircle3271301-mvn.svg"
+              class="home-image5"
+            />
+            <img
+              alt="iconsbxsheartcircle3271300"
+              src="public/external/iconsbxsheartcircle3271300-8jjs.svg"
+              class="home-image6"
+            />
+            <img
+              alt="iconsbxscart3271299"
+              src="public/external/iconsbxscart3271299-hq9t.svg"
+              class="home-image7"
+            />
+          </div>
+          <ul class="home-ul list">
+            <li class="list-item"><span>----------------------</span></li>
+            <li class="list-item"><span>----------------------</span></li>
+            <li class="list-item"><span>----------------------</span></li>
+          </ul>
+        </div>
+        <div class="home-footer1">
+          <div class="home-max-width3 max-width-container">
+            <img
+              src="public/logo-photoroom-200w.png"
+              alt="image"
+              class="home-image8"
+            />
+            <footer class="home-footer2">
+              <div class="home-container17">
+                <h3 class="Heading-3">UHR BRAND</h3>
+                <span class="home-text27">
+                  <span>4517 Washington Ave. Manchester, Kentucky 39495,</span>
+                  <br />
+                  <span>United States</span>
+                </span>
+                <span class="home-text30">(671) 555-0110</span>
+                <span class="home-text31">contact@mobillio.com</span>
+              </div>
+              <div class="home-links-container">
+                <div class="home-container18">
+                  <span class="home-text32">Categories</span>
+                  <span class="home-text33">Collections</span>
+                  <span class="home-text34">The newest models</span>
+                </div>
+                <div class="home-container19">
+                  <span class="home-text35">Company</span>
+                  <span class="home-text36">History&nbsp;</span>
+                  <span class="home-text37">Values</span>
+                  <span class="home-text38">Blog</span>
+                </div>
+                <div class="home-container20">
+                  <span class="home-text39">Resources</span>
+                  <span class="home-text40">Contact us</span>
+                  <span class="home-text41">Order</span>
+                </div>
+              </div>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
